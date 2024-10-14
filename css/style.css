@@ -190,13 +190,14 @@ img{
 /*MAIN - contact*/
 #main-contact{
     margin:auto;
+    padding:10px 0;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
 
-#main-contact > h1{
+#form-header{
     margin-bottom:40px;
     color:#333;
     font-weight:20px;
@@ -204,9 +205,42 @@ img{
     text-transform:capitalize;
 }
 
+#main-contact > div{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.sm-box{
+    margin:auto 0;
+}
+
+.sm-box > li{
+    margin-bottom:40px;
+    display:flex;
+    align-items: center;;
+}
+
+.sm-box > li > img{
+    width:25px;
+    height:25px;
+    display:inline-block;
+}
+
+.sm-box > li > a{
+    width:100%;
+    text-align:center;
+    color:#333;
+}
+
 form{
     width:400px;
-    padding:20px;
+    padding:30px;
+    background:rgba(225,225,225, 0.2);
+    border-radius:6px;
+    box-shadow:0 3px 5px rgba(0,0,0,0.3);
 }
 
 .input-box{
@@ -214,10 +248,11 @@ form{
     width:100%;
     margin-bottom:20px;
     padding:6px;
+    background:rgba(225,225,225, 0.1);;
     font-family:18px;
     outline:none;
     border:none;
-    border-bottom:1px solid #999;
+    border-bottom:1px solid #ddd;
 }
 
 .btn{
@@ -257,6 +292,7 @@ form{
     justify-content: center;
     gap:10px;
 }
+
 .project-box{
     width:100%;
     padding:20px 20px 20px 20px;
