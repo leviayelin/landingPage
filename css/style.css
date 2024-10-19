@@ -201,6 +201,7 @@ nav > ul >li{
 
 /* MAIN - service/right*/
 .service-right{
+    width:300px;
     padding:100px 20px 20px 20px;
     align-self:flex-start;
 }
