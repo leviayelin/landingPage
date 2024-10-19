@@ -5,6 +5,16 @@
     margin:0 auto;
 }
 
+.placeholder-container{
+    height:100vh;
+}
+
+/*boxes*/
+.placeholder-box{
+    width:100%;
+    height:180px;
+}
+
 /* link -elements */
 a{
     text-decoration:none;
