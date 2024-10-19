@@ -67,10 +67,6 @@ nav > ul >li{
     float:right;
 }
 
-a{
-    text-decoration:none;
-}
-
 .link{
     color:#333333a1;
     font-weight:500;
@@ -86,12 +82,6 @@ a{
 }
 
 /* MAIN - home*/
-.container{
-    width:80%;
-    overflow:hidden;
-    margin:0 auto;
-}
-
 #main-home{
      height:100vh;
     padding-top:70px;
