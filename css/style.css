@@ -7,26 +7,43 @@
     font-family:poppins, arial, sans-serif;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-    height:100vh;
+    min-height:100vh;
     width:100%;
     display:flex;
     flex-direction:column;
+    position:relative;
 }
 
 /* HEADER */
+
 header{
+    position:fixed;
+    width:100%;
+    background:#fff;
+}
+
+.header{
     width:80%;
-    min-height:70px;
+    height:70px;
     overflow:hidden;
     margin:0 auto;
     padding:10px 0 15px 0;
-    border-bottom:1px solid #ccc;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:end;
     flex-wrap:wrap;
+
+}
+
+#box{
+    height:100vh;
+    width:100%;
 }
 
 #logo{
@@ -69,14 +86,15 @@ a{
 }
 
 /* MAIN - home*/
-main{
+.container{
     width:80%;
     overflow:hidden;
     margin:0 auto;
 }
 
 #main-home{
-    margin:auto;
+     height:100vh;
+    padding-top:70px;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
@@ -126,6 +144,8 @@ img{
 
 /* MAIN - about*/
  #main-about{
+    height:100vh;
+    padding-top:70px;
     display:flex;
     justify-content:center;
     margin:auto;
@@ -151,10 +171,15 @@ img{
 
 /* MAIN - service*/
 #main-service{
+    height:100vh;
+    padding-top:70px;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
 }
 
+/* MAIN - service/left*/
 #main-service > h2{
     text-align:center;
 }
@@ -189,10 +214,29 @@ img{
     font-size:13px;
 }
 
+/* MAIN - service/right*/
+.service-right{
+    padding:20px;
+}
+
+.service-right > h2{
+    margin-bottom:10px;
+}
+
+.skill-tag{
+    display:inline;
+    margin:4px;
+    padding:5px 10px;
+    border:2px solid #ccc;
+    background:#ddd;
+    color:#333;
+}
+
 /*MAIN - contact*/
 #main-contact{
+    height:100vh;
     margin:auto;
-    padding:10px 0;
+    padding-top:70px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -274,7 +318,8 @@ form{
 
 /*MAIN - portfolio*/
 #main-portfolio{
-    height:100%;
+    height:100vh;
+    padding-top:70px;
     display:flex;
     flex-direction:column;
 }
@@ -291,10 +336,26 @@ form{
     margin:auto 0 ;
     display:grid;
     grid-template-columns:repeat(auto-fill, 350px);
+    grid-template-rows:repeat(3,250px);
     justify-content: center;
     gap:10px;
 }
 
+.project-box-placeholder{
+    width:100%;
+    padding:20px 20px 20px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border: 2px dashed #333;
+    border-radius:6px;
+}
+
+.next{
+    margin:auto;
+    color:#333;
+    font-weight:400;
+}
 .project-box{
     width:100%;
     padding:20px 20px 20px 20px;
@@ -330,4 +391,11 @@ form{
 
 .project-box > .btn:hover{
     color:#fff;
+}
+
+/*FOTTER*/
+footer{
+    height:300px;
+    width:100%;
+    background:#333;
 }
