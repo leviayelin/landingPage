@@ -1,0 +1,24 @@
+/* containers */
+.container{
+    width:80%;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+/* link -elements */
+a{
+    text-decoration:none;
+}
+
+/* list elements */
+ul{
+    display:inline-block;
+    list-style:none;
+}
+
+/* image elements */
+img{
+    width:100%;
+    height:100%;
+    display:block;
+}
