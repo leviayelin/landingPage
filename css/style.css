@@ -380,6 +380,53 @@ form{
     color:#fff;
 }
 
+/* PROJECTS PAGE  */
+.project-container{
+    height:100%;
+    width:80%;
+    margin:70px auto auto;
+    padding:20px 0;
+}
+
+#bottom{
+    height:100px;
+    width:100%;
+    background:orangered;
+}
+
+#project-navbar{
+    height:calc(100vh - 70px);
+    width:150px;
+    border-right:1.5px solid #ccc;
+    position:fixed;
+}
+
+#project-navbar > ul{
+    width:100%;
+    margin-top:30px;
+}
+
+#project-navbar > ul > li{
+    margin-bottom:10px;
+}
+
+#project-navbar > ul > li > a{
+    color:#333;
+    font-size:15px;
+}
+
+#project-content{
+    height:900px;
+    margin-left:auto;
+    padding:20px;
+    width:calc(100% - 150px);
+}
+
+#project-content > .placeholder-box{
+    margin-bottom:10px;
+    background:steelblue;
+}
+
 /*FOTTER*/
 footer{
     margin-top:auto;

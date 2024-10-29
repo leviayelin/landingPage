@@ -15,9 +15,21 @@
     height:180px;
 }
 
+#simple-box{
+    height:900px;
+    background: crimson;;
+}
+
+/* align & centering elements */
+.flex-row{
+    display:flex;
+    flex-direction:row;
+}
+
 /* link -elements */
 a{
     text-decoration:none;
+    cursor:pointer;
 }
 
 /* list elements */
