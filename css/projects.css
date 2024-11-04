@@ -1,0 +1,65 @@
+/* PROJECTS PAGE  */
+.project-container{
+    height:100%;
+    width:80%;
+    margin: 0 auto;
+}
+
+#bottom{
+    height:100px;
+    width:100%;
+    background:orangered;
+}
+
+#project-navbar{
+    height:100vh;
+    width:150px;
+    border-right:1.5px solid #ccc;
+    position:fixed;
+}
+
+#project-navbar > ul{
+    width:100%;
+    margin-top:30px;
+}
+
+#project-navbar > ul > li{
+    margin-bottom:10px;
+}
+
+#project-navbar > ul > li > a{
+    color:#333;
+    font-size:15px;
+}
+
+#project-content{
+    height:900px;
+    margin-left:auto;
+    padding: 0 20px;
+    width:calc(100% - 150px);
+}
+
+#project-content > .placeholder-box{
+    margin-bottom:10px;
+    background:#fff;
+}
+
+#project-content > .placeholder-box > ul{
+    display: flex;
+    flex-direction:row;
+}
+
+#project-content > .placeholder-box > h2{
+    padding:30px 0;
+    font-size:2.5em;
+    text-transform:uppercase;
+}
+
+.code-use{
+    display:inline-block;
+    margin:10px 5px 20px 5px;
+    padding:5px 20px;
+    background:#eee;
+    color:#aaa;
+    border:2px solid #ccc;
+}
